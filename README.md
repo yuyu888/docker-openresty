@@ -13,3 +13,9 @@ docker run -p 8081:80 -d openresty:v1
 
 # 测试
 curl http://127.0.0.1:8081/test/lua-block
+
+# 参考文档
+
+https://github.com/openresty/docker-openresty/blob/master/alpine/Dockerfile
+
+http://openresty.org/cn/download.html
